@@ -65,3 +65,21 @@
 	("user_id" . "288785464")
 	("screen_name" . "fran_vell")))
 
+
+;;color-moccur config
+(when (require 'color-moccur nil t)
+
+;;M-o is occur-by-moccur
+(define-key global-map (kbd "M-o") 'occur-by-moccur)
+;;SPC AND serch
+(setq moccur-split-word t)
+;;directory serch
+(add-to-list 'dmoccur-exclusion-mask "\\.DS_Store")
+(add-to-list 'dmoccur-exclusion-mask "^#.+#$")
+;;Migemo use
+(when (and (executable-find "cmigemo")
+	   (require 'migemo nil t))
+  (setq moccur-use-migemo t)))
+
+;;Moccure-edit conf
+(require 'moccur-edit nil t)

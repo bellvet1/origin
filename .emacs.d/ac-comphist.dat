@@ -3,11 +3,11 @@
   ("twittering-mode" .
    [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
   ("require" .
-   [0 0 0 1 0 0 0])
+   [0 0 3 1 0 0 0])
   ("load-path" .
    [0 0 0 1 0 0 0 0 0])
   ("add-to-list" .
-   [0 0 0 1 0 0 0 0 0 0 0])
+   [0 0 0 2 0 0 0 0 0 0 0])
   ("mode-name" .
    [0 0 0 0 1 0 0 0 0])
   ("tw" .
@@ -25,7 +25,7 @@
   ("body" .
    [1 0 0 1])
   ("setq" .
-   [5 0 1 4])
+   [5 0 3 4])
   ("twittering" .
    [0 0 7 1 0 0 0 0 0 0])
   ("twittering-account-authorization" .
@@ -43,4 +43,48 @@
   ("twittering-timer" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
   ("twittering-timer-interval" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])))
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("color-moccur" .
+   [0 0 0 0 1 0 0 1 0 0 0 0])
+  ("conf" .
+   [2 0 0 0])
+  ("config" .
+   [1 0 0 0 0 0])
+  ("when" .
+   [1 0 1 0])
+  ("nil" .
+   [3 0 0])
+  ("occur-by-moccur" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("define-key" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("global-map" .
+   [0 0 1 0 0 0 0 0 0 0])
+  ("occur" .
+   [0 0 1 0 0])
+  ("SPC" .
+   [0 0 1])
+  ("moccur" .
+   [0 0 2 1 0 0])
+  ("moccur-split-word" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("dmoccur" .
+   [0 0 0 1 0 0 0])
+  ("dmoccur-exclusion-mask" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("and" .
+   [0 0 1])
+  ("executable-find" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("migemo" .
+   [0 0 0 1 0 0])
+  ("s" .
+   [1])
+  ("moccur-use-ee" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("moccur-use-migemo" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("Moccure-edit" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("moccur-edit" .
+   [0 0 0 1 0 0 0 0 0 0 0])))
