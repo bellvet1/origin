@@ -47,3 +47,21 @@
 	       "~/.emacs/elisp/ac/dict")
   (define-key ac-mode-map (kbd "M-TAB") 'auto-complete)
   (ac-config-default))
+
+;;twittering mode
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/elisp"))
+(require 'twittering-mode)
+(setq twittering-status-format "%i @%s %S %p: n %T
+[%@]%r %R %f%Ln--------------------------------------")
+
+(setq twittering-icon-mode t)
+(setq twittering-convert-fix-size 40)
+(setq twittering-timer-interval 40)
+
+(setq twittering-account-authorization 'authorized)
+(setq twittering-oauth-access-token-alist
+      '(("oauth_token" . "288785464-jiCFbNG8aas7YrrMSEcygnwZFbeJuQZGpzDxiiKi")
+	("oauth_token_secret" . "PzVip8tuUlIIXsgCyXEFVtCCt23NsP5axIEsJ6MmirnrR")
+	("user_id" . "288785464")
+	("screen_name" . "fran_vell")))
+
